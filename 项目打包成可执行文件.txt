@@ -1,0 +1,6 @@
+1. 执行如下命令会创建dist目录并在其下生成alien_invasion.exe文件
+pyinstaller -w -F alien_invasion.py
+
+2. 复制images和sounds文件夹到dist目录下
+因为在如上命令后面加上如下参数也不生效，并没有复制images和sounds文件夹到dist目录下，原因待查
+ --add-data "images:images" --add-data "sounds:sounds"
